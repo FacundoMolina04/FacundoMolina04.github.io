@@ -1,0 +1,58 @@
+:root {
+    /* Colors - Light Theme */
+    --color-primary: #4361ee;
+    --color-secondary: #3a0ca3;
+    --color-accent: #4cc9f0;
+    --color-text: #2b2d42;
+    --color-text-light: #8d99ae;
+    --color-background: #f8f9fa;
+    --color-card: #ffffff;
+    --color-border: #e9ecef;
+    
+    /* Typography */
+    --font-primary: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --font-size-small: 0.875rem;
+    --font-size-normal: 1rem;
+    --font-size-medium: 1.25rem;
+    --font-size-large: 1.5rem;
+    --font-size-xlarge: 2rem;
+    --font-size-xxlarge: 3rem;
+    
+    /* Spacing */
+    --space-xs: 0.25rem;
+    --space-sm: 0.5rem;
+    --space-md: 1rem;
+    --space-lg: 2rem;
+    --space-xl: 3rem;
+    
+    /* Borders */
+    --border-radius-sm: 4px;
+    --border-radius-md: 8px;
+    --border-radius-lg: 16px;
+    --border-radius-circle: 50%;
+    
+    /* Transitions */
+    --transition-fast: 0.2s ease;
+    --transition-normal: 0.3s ease;
+    --transition-slow: 0.5s ease;
+    
+    /* Shadows */
+    --shadow-small: 0 2px 5px rgba(0, 0, 0, 0.1);
+    --shadow-medium: 0 4px 10px rgba(0, 0, 0, 0.1);
+    --shadow-large: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Dark Theme Variables */
+.dark-theme {
+    --color-primary: #4cc9f0;
+    --color-secondary: #4361ee;
+    --color-accent: #3a0ca3;
+    --color-text: #f8f9fa;
+    --color-text-light: #adb5bd;
+    --color-background: #121212;
+    --color-card: #1e1e1e;
+    --color-border: #2d2d2d;
+    --shadow-small: 0 2px 5px rgba(0, 0, 0, 0.3);
+    --shadow-medium: 0 4px 10px rgba(0, 0, 0, 0.3);
+    --shadow-large: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
