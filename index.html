@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Portfolio de Desarrollador de Software - Proyectos y habilidades en desarrollo web">
+        <meta name="keywords" content="desarrollador, software, web, frontend, portfolio, proyectos">
+        <title>Portfolio de Facundo Molina</title>
+        <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/base.css">
+        <link rel="stylesheet" href="css/layout.css">
+        <link rel="stylesheet" href="css/components.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      
+        <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "Person",
+            "name": "Facundo Molina",
+            "jobTitle": "Tecnólogo en Informática",
+            "url": "https://github.com/FacundoMolina04"
+        }
+        </script>
+        <link rel="canonical" href="https://github.com/FacundoMolina04" />
+    </head>
+    <body class="light-theme">
+        <header class="header">
+            <nav class="nav">
+                <a href="#home" class="nav__logo">Facundo Molina</a>
+                <div class="nav__menu">
+                    <a href="#about" class="nav__link">Sobre mí</a>
+                    <a href="#skills" class="nav__link">Habilidades</a>
+                    <a href="#github-repos" class="nav__link">Proyectos</a>
+                    <a href="#contact" class="nav__link">Contacto</a>
+                    <a href="#" id="view-cv-button" class="nav__link nav__download">
+                        <span>Ver CV</span>
+                        <i class="fas fa-eye" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <button class="nav__theme-toggle" aria-label="Cambiar tema">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="nav__toggle" aria-label="Abrir menú" aria-expanded="false">
+                    <i class="fas fa-bars" aria-hidden="true"></i>
+                </button>
+            </nav>
+        </header>
+
+        <main>
+            <section class="hero" id="home">
+                <div class="hero__container">
+                    <div class="hero__content">
+                        <div class="hero__details">
+                            <h1 class="hero__title">Facundo Molina</h1>
+                            <p class="hero__description">Tecnólogo en Informática | Desarrollador Full Stack.</p>
+                            <div class="hero__buttons">
+                                <a href="https://github.com/FacundoMolina04" class="hero__button hero__github-button" target="_blank" rel="noopener">
+                                    <i class="fab fa-github" aria-hidden="true"></i> GitHub
+                                </a>
+                                <a href="https://www.linkedin.com/in/facundo-molina-a51201343/" class="hero__button hero__github-button" target="_blank" rel="noopener">
+                                    <i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn
+                                </a>
+                            </div>
+                        </div>
+                        <div class="hero__profile">
+                            <figure class="hero__avatar-container">
+                                <img src="assets/avatar.jpg" alt="Un retrato de Facundo Molina sonriendo." class="hero__avatar" width="240" height="240">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about" id="about">
+                <div class="about__container">
+                    <h2 class="section-title">Sobre Mí</h2>
+                    <p class="about__text">Tecnólogo en Informática apasionado por el desarrollo de software, con conocimiento en diversos lenguajes de programación y tecnologías. Dedicado a aprender constantemente. Estoy siempre en busca de nuevos desafíos que permitan tanto aplicar como expandir mis habilidades técnicas.</p>
+                </div>
+            </section>
+
+            <section class="skills" id="skills">
+                <div class="skills__container">
+                    <h2 class="section-title">Habilidades</h2>
+                    <div class="skills__tabs">
+                        <button class="skills__tab active" data-category="languages">Lenguajes</button>
+                        <button class="skills__tab" data-category="web">Desarrollo Web</button>
+                        <button class="skills__tab" data-category="frameworks">Frameworks y Tecnologías</button>
+                        <button class="skills__tab" data-category="tools">Herramientas y Más</button>
+                    </div>
+                    <div class="skills__categories">
+                        
+                        <div class="skills__category active" data-category="languages">
+                            <h3 class="skills__category-title">Lenguajes de Programación</h3>
+                            <div class="skills__category-items">
+                                <div class="skills__item"><i class="fas fa-code" aria-hidden="true"></i><span>C, C++, C#</span></div>
+                                <div class="skills__item"><i class="fab fa-java" aria-hidden="true"></i><span>Java</span></div>
+                                <div class="skills__item"><i class="fab fa-python" aria-hidden="true"></i><span>Python</span></div>
+                                <div class="skills__item"><i class="fab fa-php" aria-hidden="true"></i><span>PHP</span></div>
+                                <div class="skills__item"><i class="fab fa-js" aria-hidden="true"></i><span>JavaScript</span></div>
+                                <div class="skills__item"><i class="fab fa-js-square" aria-hidden="true"></i><span>TypeScript</span></div>
+                            </div>
+                        </div>
+                        
+                      
+                        <div class="skills__category hidden" data-category="web">
+                            <h3 class="skills__category-title">Desarrollo Web</h3>
+                            <div class="skills__category-items">
+                                <div class="skills__item"><i class="fab fa-html5" aria-hidden="true"></i><span>HTML5</span></div>
+                                <div class="skills__item"><i class="fab fa-css3-alt" aria-hidden="true"></i><span>CSS3</span></div>
+                                <div class="skills__item"><i class="fab fa-react" aria-hidden="true"></i><span>React</span></div>
+                                <div class="skills__item"><i class="fab fa-angular" aria-hidden="true"></i><span>Angular</span></div>
+                                <div class="skills__item"><i class="fab fa-node-js" aria-hidden="true"></i><span>Node.js</span></div>
+                            </div>
+                        </div>
+                        
+                      
+                        <div class="skills__category hidden" data-category="frameworks">
+                            <h3 class="skills__category-title">Frameworks y Tecnologías</h3>
+                            <div class="skills__category-items">
+                                <div class="skills__item"><i class="fab fa-microsoft" aria-hidden="true"></i><span>.NET, SignalR</span></div>
+                                <div class="skills__item"><i class="fab fa-microsoft" aria-hidden="true"></i><span>Blazor, .NET Core</span></div>
+                                <div class="skills__item"><i class="fab fa-android" aria-hidden="true"></i><span>Flutter</span></div>
+                                <div class="skills__item"><i class="fab fa-java" aria-hidden="true"></i><span>JavaEE, Maven</span></div>
+                                <div class="skills__item"><i class="fab fa-java" aria-hidden="true"></i><span>JSP, Servlets</span></div>
+                                <div class="skills__item"><i class="fab fa-java" aria-hidden="true"></i><span>JPA, EclipseLink</span></div>
+                                <div class="skills__item"><i class="fab fa-java" aria-hidden="true"></i><span>Hibernate, Mockito</span></div>
+                            </div>
+                        </div>
+
+                       
+                        <div class="skills__category hidden" data-category="tools">
+                            <h3 class="skills__category-title">APIs y Arquitecturas</h3>
+                            <div class="skills__category-items">
+                                <div class="skills__item"><i class="fas fa-exchange-alt" aria-hidden="true"></i><span>SOAP/REST</span></div>
+                                <div class="skills__item"><i class="fas fa-layer-group" aria-hidden="true"></i><span>Capas</span></div>
+                                <div class="skills__item"><i class="fas fa-cubes" aria-hidden="true"></i><span>Microservicios</span></div>
+                                <div class="skills__item"><i class="fas fa-bolt" aria-hidden="true"></i><span>Orientado a Eventos</span></div>
+                            </div>
+                        </div>
+                        <div class="skills__category hidden" data-category="tools">
+                            <h3 class="skills__category-title">Bases de Datos y Servidores</h3>
+                            <div class="skills__category-items">
+                                <div class="skills__item"><i class="fas fa-database" aria-hidden="true"></i><span>MySQL</span></div>
+                                <div class="skills__item"><i class="fas fa-database" aria-hidden="true"></i><span>OracleDB</span></div>
+                                <div class="skills__item"><i class="fas fa-database" aria-hidden="true"></i><span>PostgreSQL</span></div>
+                                <div class="skills__item"><i class="fas fa-server" aria-hidden="true"></i><span>TOMCAT/WildFly</span></div>
+                            </div>
+                        </div>
+                        <div class="skills__category hidden" data-category="tools">
+                            <h3 class="skills__category-title">Herramientas de Desarrollo</h3>
+                            <div class="skills__category-items">
+                                <div class="skills__item"><i class="fas fa-paper-plane" aria-hidden="true"></i><span>Postman</span></div>
+                                <div class="skills__item"><i class="fab fa-git-alt" aria-hidden="true"></i><span>Git</span></div>
+                                <div class="skills__item"><i class="fas fa-vial" aria-hidden="true"></i><span>JUnit/Mockito</span></div>
+                                <div class="skills__item"><i class="fab fa-docker" aria-hidden="true"></i><span>Docker</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+        
+            <section class="projects" id="github-repos">
+                <div class="projects__container">
+                    <h2 class="section-title">Mis Repositorios de GitHub</h2>
+                    <p class="about__text">Estos son mis repositorios más recientes en GitHub.</p>
+                    <div class="github-repos__container projects__grid">
+                      
+                        <div class="project-card github-loading">
+                            <div class="project-card__content">
+                                <p>Cargando repositorios de GitHub...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects__load-more">
+                        <button class="button button--outline" id="load-more-repos" style="display: none;">Cargar más</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="contact" id="contact">
+                <div class="contact__container">
+                    <h2 class="section-title">Contacto</h2>
+                    <div class="contact__content">
+                        <p class="contact__text">No dudes en contactarme directamente por correo electrónico.</p>
+                        <a href="mailto:facundo.molina.irurueta@gmail.com" class="contact__email-button">
+                            <i class="fas fa-envelope" aria-hidden="true"></i> Envíame un correo
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; Facundo Molina.</p>
+        </footer>
+
+
+        <div class="cv-modal" id="cv-modal" aria-hidden="true">
+            <div class="cv-modal__overlay" id="cv-modal-overlay"></div>
+            <div class="cv-modal__content" role="dialog" aria-modal="true" aria-labelledby="cv-modal-title">
+                <div class="cv-modal__header">
+                    <h3 id="cv-modal-title" class="cv-modal__title">Currículum Vitae</h3>
+                    <div class="cv-modal__actions">
+                        <a href="assets/cv.pdf" class="cv-modal__download" download="CV_Facundo_Molina.pdf">
+                            <i class="fas fa-download" aria-hidden="true"></i>
+                            <span>Descargar</span>
+                        </a>
+                        <button class="cv-modal__close" id="cv-modal-close" aria-label="Cerrar modal">
+                            <i class="fas fa-times" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="cv-modal__body">
+                    <iframe class="cv-modal__iframe" src="assets/cv.pdf" title="Currículum Vitae de Facundo Molina"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/main.js" type="module"></script>
+    </body>
+</html>

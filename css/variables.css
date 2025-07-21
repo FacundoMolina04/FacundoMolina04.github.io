@@ -1,0 +1,59 @@
+:root {
+
+    --hue-primary: 228; 
+    --hue-accent: 197;  
+
+
+    --color-brand-accent: hsl(var(--hue-primary), 81%, 53%); 
+    --color-brand-secondary: hsl(var(--hue-primary), 85%, 43%); 
+    --color-text-primary: hsl(231, 21%, 27%); 
+    --color-text-secondary: hsl(210, 16%, 62%); 
+    --color-surface-background: hsl(210, 17%, 96%); 
+    --color-surface-card: hsl(0, 0%, 100%); 
+    --color-surface-border: hsl(210, 16%, 93%);
+
+
+    --font-primary: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --font-size-small: 0.875rem;
+    --font-size-normal: 1rem;
+    --font-size-medium: 1.25rem;
+    --font-size-large: 1.5rem;
+    --font-size-xlarge: 2rem;
+    --font-size-xxlarge: 3rem;
+   
+    --space-xs: 0.25rem;
+    --space-sm: 0.5rem;
+    --space-md: 1rem;
+    --space-lg: 2rem;
+    --space-xl: 3rem;
+    
+
+    --border-radius-sm: 4px;
+    --border-radius-md: 8px;
+    --border-radius-lg: 16px;
+    --border-radius-circle: 50%;
+    
+
+    --transition-fast: 0.2s ease;
+    --transition-normal: 0.3s ease;
+    
+ 
+    --shadow-small: 0 2px 5px rgba(0, 0, 0, 0.08);
+    --shadow-medium: 0 4px 10px rgba(0, 0, 0, 0.1);
+    --shadow-large: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+.dark-theme {
+    --color-brand-accent: hsl(var(--hue-accent), 85%, 62%);
+    --color-brand-secondary: hsl(var(--hue-primary), 81%, 53%);
+    --color-text-primary: hsl(210, 17%, 96%);
+    --color-text-secondary: hsl(210, 12%, 72%);
+    --color-surface-background: hsl(0, 0%, 7%);
+    --color-surface-card: hsl(0, 0%, 12%);
+    --color-surface-border: hsl(0, 0%, 18%);
+    
+    --shadow-small: 0 2px 5px rgba(0, 0, 0, 0.3);
+    --shadow-medium: 0 4px 10px rgba(0, 0, 0, 0.3);
+    --shadow-large: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
